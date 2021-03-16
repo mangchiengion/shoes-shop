@@ -1,0 +1,166 @@
+.information {
+    width: 100%;
+    background-color: black;
+    margin: auto;
+}
+
+.information .package {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    width: 90%;
+    margin-left: auto;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.information .package .information1 {
+    width: 25%;
+}
+
+.information .package h1 {
+    padding-top: 60px;
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+
+.information .package .information1>span {
+    display: block;
+    font-size: 13px;
+}
+
+.information .package .information1>ul {
+    margin-left: -37px;
+    font-size: 13px;
+}
+
+.information .package .information1>ul>li {
+    padding-top: 5px;
+    list-style: none;
+    display: block;
+}
+
+.information .package .information1>ul>li>a {
+    color: white;
+    text-decoration: none;
+}
+
+.information .package .information2 {
+    margin-left: -100px;
+}
+
+.information .package .information2 ul {
+    margin-left: -37px;
+}
+
+.information .package .information2>ul>li {
+    font-size: 12px;
+    padding-bottom: 10px;
+    list-style: none;
+}
+
+.information .package .information2>ul>li>i {
+    padding-right: 5px;
+}
+
+.information .package .information2>ul>li>a {
+    color: white;
+    text-decoration: none;
+}
+
+.information .package .payment {
+    margin-right: 150px;
+}
+
+.information .package .payment>ul {
+    margin-left: -37px;
+    display: flex;
+}
+
+.information .package .payment>ul>li {
+    list-style: none;
+    margin-right: 3px;
+}
+
+.information .package .payment>ul>li>img {
+    width: 40px;
+}
+
+
+/* end-information */
+
+.banner-end {
+    margin: auto;
+    width: 100%;
+    height: 70px;
+    background: rgb(47, 46, 46);
+}
+
+.banner-end .package {
+    margin: auto;
+    width: 80%;
+    display: flex;
+}
+
+.banner-end .package .banner-left {
+    padding-top: 25px;
+}
+
+.banner-end .package .banner-right {
+    margin-left: 250px;
+    padding: auto;
+}
+
+.banner-end .package .banner-right ul {
+    padding-top: 25px;
+    display: flex;
+}
+
+.banner-end .package .banner-right ul li {
+    list-style: none;
+}
+
+.banner-end .package .banner-right>ul>li>a {
+    text-decoration: none;
+}
+
+.banner-end .package .banner-right ul li a i {
+    color: rgb(7, 6, 6);
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+
+/* end-banner */
+
+.contact {
+    top: 86%;
+    left: 20px;
+    position: fixed;
+    z-index: 1024;
+}
+
+.contact i {
+    font-size: 30px;
+}
+
+.contact1 {
+    top: 86%;
+    right: 20px;
+    position: fixed;
+    z-index: 1024;
+}
+
+.contact1 i {
+    font-size: 50px;
+}
+
+.fixed {
+    top: 0px;
+    position: fixed;
+    z-index: 8000;
+}
+
+.logout a {
+    text-decoration: none;
+}
